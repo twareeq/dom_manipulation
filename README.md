@@ -40,5 +40,5 @@ Integrated a calculation engine that listens for filter changes. It sums up the 
 Bash
 git clone https://github.com/YourUsername/transaction-filter-app.git
 Open index.html in any modern web browser.
-
+```
 <img width="1679" height="970" alt="Screenshot 2026-04-14 at 12 15 36 PM" src="https://github.com/user-attachments/assets/1b2a1ae9-77e8-4844-8a35-f04f003c809f" />
