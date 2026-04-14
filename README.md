@@ -1,6 +1,4 @@
-# TRANSACTIONS FILTER APP
-
-# 💸 Vanilla JS Transaction Filter
+# 💸 Vanilla JS Transaction Filter APP
 
 A sleek, framework-free transaction management tool. This project focuses on **Raw DOM Manipulation** and efficient data handling using only vanilla HTML5, CSS3, and JavaScript.
 
