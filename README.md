@@ -1,31 +1,41 @@
 # dom_manipulation
 
-🚀 Features
-Dynamic Table Rendering: Automatically generates an HTML table from a JavaScript data array. No hardcoded rows.
+# 💸 Vanilla JS Transaction Filter
 
-Real-time Filtering: Users can filter transactions based on a minimum amount threshold.
+A sleek, framework-free transaction management tool. This project focuses on **Raw DOM Manipulation** and efficient data handling using only vanilla HTML5, CSS3, and JavaScript.
 
-Live Totals: A dynamic summary line that calculates and displays the total value of currently filtered transactions.
+---
 
-Zero Dependencies: 100% Vanilla JS, HTML5, and CSS3.
+## 🎯 Project Goals
+The objective of this project was to build a functional data dashboard without the "magic" of React or other libraries, ensuring a deep understanding of how the browser handles data and UI updates.
 
-🛠️ Technical Implementation
-Task 1: Dynamic Rendering
-The application parses a transaction array and uses document.createElement or template literals to inject rows into the <tbody>. This ensures the UI stays in sync with the data source.
+### 🚀 Key Features
 
-Task 2: Filtering Logic
-Utilizes an Event Listener on the filter button to trigger a function that compares user input against the transaction values, toggling visibility or re-rendering the list accordingly.
+* **Dynamic Data Injection:** The transaction table is built entirely via JavaScript. No hardcoded `<tr>` tags—the JS parses the data and constructs the UI on the fly.
+* **Threshold Filtering:** An interactive filter that allows users to set a minimum amount. The table updates instantly to show only relevant financial data.
+* **Live Aggregation:** A dynamic "Total" indicator that recalculates the sum of only the *visible* transactions every time the filter is adjusted.
 
-Task 3: Aggregation
-Every time the filter is applied, a reducer function calculates the sum of the visible transactions and updates the summary node in the DOM.
+---
 
-📁 Project Structure
-Plaintext
-├── index.html   # The structure of the application
-├── style.css    # Custom styling for the table and UI
-└── script.js    # Logic for rendering, filtering, and total calculation
-💻 How to Run
-Clone this repository:
+## 🛠️ The "No-Framework" Tasks
+
+### Task 1: Dynamic Table Rendering
+Used JavaScript to iterate through the transaction array and dynamically append rows to the DOM. This ensures that as the data grows, the UI scales automatically.
+
+### Task 2: Data Filtering
+Implemented an event-driven filtering system. When the user inputs a minimum value, the script compares it against the dataset and selectively renders the matching transactions.
+
+### Task 3: Real-time Calculation
+Integrated a calculation engine that listens for filter changes. It sums up the `amount` values of the filtered results to provide an accurate, real-time total.
+
+---
+
+## 📂 Project Structure
+```text
+.
+├── index.html   # Semantic HTML5 structure
+├── style.css    # Custom layout and table styling
+└── script.js    # Core logic (Rendering, Filtering, Calculation)
 
 Bash
 git clone https://github.com/YourUsername/transaction-filter-app.git
