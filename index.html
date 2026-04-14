@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Day 4</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="content">
+        <h1>Transactions Filter App</h1>
+        <div id="amountSection">
+          <div class="card1">
+            <h5>TOTAL AMOUNT</h5>
+            <h1 id="totalAmount"></h1>
+            <p style="max-width: 300px">Total amount for all the transactions within the table below</p>
+          </div>
+          <div class="card2">
+              <button class="btn1" type="button" name="reset">Reset Filters</button>
+              <button class="btn2" type="button" name="filter">Apply Filters</button>
+          </div>
+        </div>
+        <div id="filterSection">
+          <div class="filterCard">
+            <p>Amount Range (Min)</p>
+            <input id="minAmount" type="number" name="minAmount" placeholder="Min Mk">
+          </div>
+          <div class="filterCard">
+            <p>Amount Range (Max)</p>
+            <input id="maxAmount" type="number" name="maxAmount" placeholder="Max Mk">
+          </div>
+          <div class="filterCard">
+            <p>Date Range (Start)</p>
+            <input id="minDate" type="date" name="minDate" >
+          </div>
+          <div class="filterCard">
+            <p>Date Range (End)</p>
+            <input id="maxDate" type="date" name="maxDate" >
+          </div>
+        </div>
+        <div id="tableSection">
+
+        </div>
+        <div></div>
+      </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
