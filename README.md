@@ -1,4 +1,4 @@
-# dom_manipulation
+# TRANSACTIONS FILTER APP
 
 # 💸 Vanilla JS Transaction Filter
 
